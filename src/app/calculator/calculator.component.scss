@@ -1,0 +1,21 @@
+.base {
+  margin-top: 5vh;
+  width: 100%;
+}
+
+.maindisplay {
+  background: lightgrey;
+  height: 25vh;
+  padding: 5%;
+  font-size: 4rem;
+  text-align: right;
+  font-family: Courier, monospace;
+  overflow: auto;
+}
+
+.subdisplay {
+  border-bottom: 1px solid black;
+  height: 25%;
+  font-size: 2rem;
+  overflow: auto;
+}

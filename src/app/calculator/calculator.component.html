@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="base">
+        <div class="maindisplay">
+          <div class="subdisplay">{{ subText }}</div>
+          {{ mainText }}
+        </div>
+
+        <app-keypad
+          (pressedKey)="pressKey($event)"
+        ></app-keypad>
+      </div>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</div>
